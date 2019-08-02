@@ -15,6 +15,13 @@
 		C7CAEE2222F3E1FF00FB4A9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE2122F3E1FF00FB4A9A /* main.m */; };
 		C7CAEE2C22F3E1FF00FB4A9A /* GuidePage_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE2B22F3E1FF00FB4A9A /* GuidePage_DemoTests.m */; };
 		C7CAEE3722F3E1FF00FB4A9A /* GuidePage_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE3622F3E1FF00FB4A9A /* GuidePage_DemoUITests.m */; };
+		C7CAEE4722F3E26800FB4A9A /* ZLGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE4622F3E26800FB4A9A /* ZLGuidePageView.m */; };
+		C7CAEE4A22F3E40400FB4A9A /* ZLGifImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE4922F3E40400FB4A9A /* ZLGifImageOperation.m */; };
+		C7CAEE5022F40A5700FB4A9A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE4F22F40A5700FB4A9A /* HomeViewController.m */; };
+		C7CAEE5B22F44EF300FB4A9A /* guideImage7.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE5822F44EF300FB4A9A /* guideImage7.gif */; };
+		C7CAEE5C22F44EF300FB4A9A /* guideImage6.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE5922F44EF300FB4A9A /* guideImage6.gif */; };
+		C7CAEE5D22F44EF300FB4A9A /* guideImage8.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE5A22F44EF300FB4A9A /* guideImage8.gif */; };
+		C7CAEE5F22F4500700FB4A9A /* guideMovie1.mov in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE5E22F4500700FB4A9A /* guideMovie1.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,17 @@
 		C7CAEE3222F3E1FF00FB4A9A /* GuidePage-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GuidePage-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CAEE3622F3E1FF00FB4A9A /* GuidePage_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuidePage_DemoUITests.m; sourceTree = "<group>"; };
 		C7CAEE3822F3E1FF00FB4A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CAEE4522F3E26800FB4A9A /* ZLGuidePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLGuidePageView.h; sourceTree = "<group>"; };
+		C7CAEE4622F3E26800FB4A9A /* ZLGuidePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLGuidePageView.m; sourceTree = "<group>"; };
+		C7CAEE4822F3E40400FB4A9A /* ZLGifImageOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLGifImageOperation.h; sourceTree = "<group>"; };
+		C7CAEE4922F3E40400FB4A9A /* ZLGifImageOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLGifImageOperation.m; sourceTree = "<group>"; };
+		C7CAEE4C22F3E4C300FB4A9A /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		C7CAEE4E22F40A5700FB4A9A /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C7CAEE4F22F40A5700FB4A9A /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C7CAEE5822F44EF300FB4A9A /* guideImage7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage7.gif; sourceTree = "<group>"; };
+		C7CAEE5922F44EF300FB4A9A /* guideImage6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage6.gif; sourceTree = "<group>"; };
+		C7CAEE5A22F44EF300FB4A9A /* guideImage8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage8.gif; sourceTree = "<group>"; };
+		C7CAEE5E22F4500700FB4A9A /* guideMovie1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = guideMovie1.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,14 @@
 		C7CAEE1122F3E1FD00FB4A9A /* GuidePage-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C7CAEE5722F44EEA00FB4A9A /* Image */,
+				C7CAEE4422F3E24D00FB4A9A /* Guide */,
 				C7CAEE1222F3E1FD00FB4A9A /* AppDelegate.h */,
 				C7CAEE1322F3E1FD00FB4A9A /* AppDelegate.m */,
 				C7CAEE1522F3E1FD00FB4A9A /* ViewController.h */,
 				C7CAEE1622F3E1FD00FB4A9A /* ViewController.m */,
+				C7CAEE4E22F40A5700FB4A9A /* HomeViewController.h */,
+				C7CAEE4F22F40A5700FB4A9A /* HomeViewController.m */,
 				C7CAEE1822F3E1FD00FB4A9A /* Main.storyboard */,
 				C7CAEE1B22F3E1FF00FB4A9A /* Assets.xcassets */,
 				C7CAEE1D22F3E1FF00FB4A9A /* LaunchScreen.storyboard */,
@@ -130,6 +152,29 @@
 				C7CAEE3822F3E1FF00FB4A9A /* Info.plist */,
 			);
 			path = "GuidePage-DemoUITests";
+			sourceTree = "<group>";
+		};
+		C7CAEE4422F3E24D00FB4A9A /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				C7CAEE4522F3E26800FB4A9A /* ZLGuidePageView.h */,
+				C7CAEE4622F3E26800FB4A9A /* ZLGuidePageView.m */,
+				C7CAEE4822F3E40400FB4A9A /* ZLGifImageOperation.h */,
+				C7CAEE4922F3E40400FB4A9A /* ZLGifImageOperation.m */,
+				C7CAEE4C22F3E4C300FB4A9A /* AppMacro.h */,
+			);
+			name = Guide;
+			sourceTree = "<group>";
+		};
+		C7CAEE5722F44EEA00FB4A9A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C7CAEE5922F44EF300FB4A9A /* guideImage6.gif */,
+				C7CAEE5822F44EF300FB4A9A /* guideImage7.gif */,
+				C7CAEE5A22F44EF300FB4A9A /* guideImage8.gif */,
+				C7CAEE5E22F4500700FB4A9A /* guideMovie1.mov */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +280,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CAEE5D22F44EF300FB4A9A /* guideImage8.gif in Resources */,
 				C7CAEE1F22F3E1FF00FB4A9A /* LaunchScreen.storyboard in Resources */,
 				C7CAEE1C22F3E1FF00FB4A9A /* Assets.xcassets in Resources */,
 				C7CAEE1A22F3E1FD00FB4A9A /* Main.storyboard in Resources */,
+				C7CAEE5C22F44EF300FB4A9A /* guideImage6.gif in Resources */,
+				C7CAEE5F22F4500700FB4A9A /* guideMovie1.mov in Resources */,
+				C7CAEE5B22F44EF300FB4A9A /* guideImage7.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CAEE4722F3E26800FB4A9A /* ZLGuidePageView.m in Sources */,
 				C7CAEE1722F3E1FD00FB4A9A /* ViewController.m in Sources */,
 				C7CAEE2222F3E1FF00FB4A9A /* main.m in Sources */,
 				C7CAEE1422F3E1FD00FB4A9A /* AppDelegate.m in Sources */,
+				C7CAEE4A22F3E40400FB4A9A /* ZLGifImageOperation.m in Sources */,
+				C7CAEE5022F40A5700FB4A9A /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

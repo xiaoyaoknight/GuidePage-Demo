@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "HomeViewController.h"
+#import "ZLGuidePageView.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +17,28 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    ViewController *appStartController = [[ViewController alloc] init];
+    self.window.rootViewController = appStartController;
+    self.window.backgroundColor = [UIColor greenColor];
+    appStartController.callBack = ^(void) {
+        [self switchRootViewController];
+    };
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+/**
+ 切换RootViewController
+ */
+- (void)switchRootViewController {
+    self.window.rootViewController = nil;
+    HomeViewController *homeVc = [[HomeViewController alloc] init];
+    UINavigationController *brandsNavigationController = [[UINavigationController alloc] initWithRootViewController:homeVc];
+    self.window.rootViewController = brandsNavigationController;
 }
 
 

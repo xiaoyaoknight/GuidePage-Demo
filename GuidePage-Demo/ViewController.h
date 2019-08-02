@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef void(^CallBack)(void);
 @interface ViewController : UIViewController
 
-
+@property (nonatomic, copy) CallBack callBack;
 @end
 
