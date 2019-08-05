@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - JSONKit_Framework (1.0.2)
+  - JSONModel (1.8.0)
+  - MSWeakTimer (1.1.0)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+  - ZLNetWork (0.1.1):
+    - ZLNetWork/KeychainWrapper (= 0.1.1)
+    - ZLNetWork/Network (= 0.1.1)
+  - ZLNetWork/KeychainWrapper (0.1.1)
+  - ZLNetWork/Network (0.1.1):
+    - AFNetworking (= 3.1.0)
+    - JSONKit_Framework
+    - JSONModel
+    - ZLNetWork/KeychainWrapper
+
+DEPENDENCIES:
+  - MSWeakTimer (~> 1.1.0)
+  - SDWebImage
+  - ZLNetWork
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - JSONKit_Framework
+    - JSONModel
+    - MSWeakTimer
+    - SDWebImage
+  https://gitlab.com/BJ_DEV/ZL_CommonSpec.git:
+    - ZLNetWork
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  JSONKit_Framework: a46a5755cfd85c28ed33d81989a4723df5bef833
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+  ZLNetWork: 95297bd4ca8bb973e7fa365ee68471286c417830
+
+PODFILE CHECKSUM: e6fa7f9d9204913766be3ebb82c9a0af0ab40b7b
+
+COCOAPODS: 1.5.3

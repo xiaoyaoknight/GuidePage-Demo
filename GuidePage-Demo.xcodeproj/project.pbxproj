@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		417609618BB098FC21F1AD2A /* Pods_GuidePage_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A958948060A78CEBF12C32 /* Pods_GuidePage_Demo.framework */; };
 		C7CAEE1422F3E1FD00FB4A9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE1322F3E1FD00FB4A9A /* AppDelegate.m */; };
 		C7CAEE1722F3E1FD00FB4A9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE1622F3E1FD00FB4A9A /* ViewController.m */; };
 		C7CAEE1A22F3E1FD00FB4A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE1822F3E1FD00FB4A9A /* Main.storyboard */; };
@@ -22,6 +23,10 @@
 		C7CAEE5C22F44EF300FB4A9A /* guideImage6.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE5922F44EF300FB4A9A /* guideImage6.gif */; };
 		C7CAEE5D22F44EF300FB4A9A /* guideImage8.gif in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE5A22F44EF300FB4A9A /* guideImage8.gif */; };
 		C7CAEE5F22F4500700FB4A9A /* guideMovie1.mov in Resources */ = {isa = PBXBuildFile; fileRef = C7CAEE5E22F4500700FB4A9A /* guideMovie1.mov */; };
+		C7CAEE6B22F7D13D00FB4A9A /* NSUserDefaults+LaunchGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE6A22F7D13D00FB4A9A /* NSUserDefaults+LaunchGuide.m */; };
+		C7CAEE7022F7D2C500FB4A9A /* UIImage+LaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE6E22F7D2C500FB4A9A /* UIImage+LaunchImage.m */; };
+		C7CAEE7322F7D35800FB4A9A /* ZLLaunchConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE7222F7D35800FB4A9A /* ZLLaunchConfig.m */; };
+		C7CAEE7722F7D8AD00FB4A9A /* ZLSplashAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CAEE7622F7D8AD00FB4A9A /* ZLSplashAdView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22A958948060A78CEBF12C32 /* Pods_GuidePage_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuidePage_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C927DF3B5AFEE6D0BA11B8 /* Pods-GuidePage-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuidePage-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GuidePage-Demo/Pods-GuidePage-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4B15A7D39C5D8A46EFB25B4B /* Pods-GuidePage-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuidePage-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GuidePage-Demo/Pods-GuidePage-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		C7CAEE0F22F3E1FD00FB4A9A /* GuidePage-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GuidePage-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CAEE1222F3E1FD00FB4A9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7CAEE1322F3E1FD00FB4A9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +77,14 @@
 		C7CAEE5922F44EF300FB4A9A /* guideImage6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage6.gif; sourceTree = "<group>"; };
 		C7CAEE5A22F44EF300FB4A9A /* guideImage8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = guideImage8.gif; sourceTree = "<group>"; };
 		C7CAEE5E22F4500700FB4A9A /* guideMovie1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = guideMovie1.mov; sourceTree = "<group>"; };
+		C7CAEE6922F7D13D00FB4A9A /* NSUserDefaults+LaunchGuide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+LaunchGuide.h"; sourceTree = "<group>"; };
+		C7CAEE6A22F7D13D00FB4A9A /* NSUserDefaults+LaunchGuide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+LaunchGuide.m"; sourceTree = "<group>"; };
+		C7CAEE6E22F7D2C500FB4A9A /* UIImage+LaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LaunchImage.m"; sourceTree = "<group>"; };
+		C7CAEE6F22F7D2C500FB4A9A /* UIImage+LaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LaunchImage.h"; sourceTree = "<group>"; };
+		C7CAEE7122F7D35800FB4A9A /* ZLLaunchConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLLaunchConfig.h; sourceTree = "<group>"; };
+		C7CAEE7222F7D35800FB4A9A /* ZLLaunchConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLLaunchConfig.m; sourceTree = "<group>"; };
+		C7CAEE7522F7D8AD00FB4A9A /* ZLSplashAdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLSplashAdView.h; sourceTree = "<group>"; };
+		C7CAEE7622F7D8AD00FB4A9A /* ZLSplashAdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLSplashAdView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417609618BB098FC21F1AD2A /* Pods_GuidePage_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65508158AE4E3F2273B5DF36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32C927DF3B5AFEE6D0BA11B8 /* Pods-GuidePage-Demo.debug.xcconfig */,
+				4B15A7D39C5D8A46EFB25B4B /* Pods-GuidePage-Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EC8B738C039572DFE98A7C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A958948060A78CEBF12C32 /* Pods_GuidePage_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7CAEE0622F3E1FD00FB4A9A = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +137,8 @@
 				C7CAEE2A22F3E1FF00FB4A9A /* GuidePage-DemoTests */,
 				C7CAEE3522F3E1FF00FB4A9A /* GuidePage-DemoUITests */,
 				C7CAEE1022F3E1FD00FB4A9A /* Products */,
+				65508158AE4E3F2273B5DF36 /* Pods */,
+				6EC8B738C039572DFE98A7C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +155,7 @@
 		C7CAEE1122F3E1FD00FB4A9A /* GuidePage-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C7CAEE6422F7CFF100FB4A9A /* Category */,
 				C7CAEE5722F44EEA00FB4A9A /* Image */,
 				C7CAEE4422F3E24D00FB4A9A /* Guide */,
 				C7CAEE1222F3E1FD00FB4A9A /* AppDelegate.h */,
@@ -159,8 +196,12 @@
 			children = (
 				C7CAEE4522F3E26800FB4A9A /* ZLGuidePageView.h */,
 				C7CAEE4622F3E26800FB4A9A /* ZLGuidePageView.m */,
+				C7CAEE7522F7D8AD00FB4A9A /* ZLSplashAdView.h */,
+				C7CAEE7622F7D8AD00FB4A9A /* ZLSplashAdView.m */,
 				C7CAEE4822F3E40400FB4A9A /* ZLGifImageOperation.h */,
 				C7CAEE4922F3E40400FB4A9A /* ZLGifImageOperation.m */,
+				C7CAEE7122F7D35800FB4A9A /* ZLLaunchConfig.h */,
+				C7CAEE7222F7D35800FB4A9A /* ZLLaunchConfig.m */,
 				C7CAEE4C22F3E4C300FB4A9A /* AppMacro.h */,
 			);
 			name = Guide;
@@ -177,6 +218,17 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		C7CAEE6422F7CFF100FB4A9A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C7CAEE6922F7D13D00FB4A9A /* NSUserDefaults+LaunchGuide.h */,
+				C7CAEE6A22F7D13D00FB4A9A /* NSUserDefaults+LaunchGuide.m */,
+				C7CAEE6F22F7D2C500FB4A9A /* UIImage+LaunchImage.h */,
+				C7CAEE6E22F7D2C500FB4A9A /* UIImage+LaunchImage.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -184,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7CAEE3B22F3E1FF00FB4A9A /* Build configuration list for PBXNativeTarget "GuidePage-Demo" */;
 			buildPhases = (
+				EA1929F8DE69F9348AA249E3 /* [CP] Check Pods Manifest.lock */,
 				C7CAEE0B22F3E1FD00FB4A9A /* Sources */,
 				C7CAEE0C22F3E1FD00FB4A9A /* Frameworks */,
 				C7CAEE0D22F3E1FD00FB4A9A /* Resources */,
+				34D63DCDE92C363E70028447 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,15 +360,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34D63DCDE92C363E70028447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GuidePage-Demo/Pods-GuidePage-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONKit_Framework/JSONKit_Framework.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/MSWeakTimer/MSWeakTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ZLNetWork/ZLNetWork.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONKit_Framework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSWeakTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZLNetWork.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GuidePage-Demo/Pods-GuidePage-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA1929F8DE69F9348AA249E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuidePage-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7CAEE0B22F3E1FD00FB4A9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7CAEE7722F7D8AD00FB4A9A /* ZLSplashAdView.m in Sources */,
 				C7CAEE4722F3E26800FB4A9A /* ZLGuidePageView.m in Sources */,
 				C7CAEE1722F3E1FD00FB4A9A /* ViewController.m in Sources */,
+				C7CAEE7022F7D2C500FB4A9A /* UIImage+LaunchImage.m in Sources */,
 				C7CAEE2222F3E1FF00FB4A9A /* main.m in Sources */,
+				C7CAEE6B22F7D13D00FB4A9A /* NSUserDefaults+LaunchGuide.m in Sources */,
 				C7CAEE1422F3E1FD00FB4A9A /* AppDelegate.m in Sources */,
+				C7CAEE7322F7D35800FB4A9A /* ZLLaunchConfig.m in Sources */,
 				C7CAEE4A22F3E40400FB4A9A /* ZLGifImageOperation.m in Sources */,
 				C7CAEE5022F40A5700FB4A9A /* HomeViewController.m in Sources */,
 			);
@@ -485,6 +600,7 @@
 		};
 		C7CAEE3C22F3E1FF00FB4A9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C927DF3B5AFEE6D0BA11B8 /* Pods-GuidePage-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +617,7 @@
 		};
 		C7CAEE3D22F3E1FF00FB4A9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B15A7D39C5D8A46EFB25B4B /* Pods-GuidePage-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

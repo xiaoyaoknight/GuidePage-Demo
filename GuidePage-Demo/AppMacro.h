@@ -47,3 +47,9 @@ static inline UIEdgeInsets SafeAreaInsets() {
 
 // 有底部安全区域则为 刘海机型
 #define IS_IPHONEX (( SafeAreaInsets().bottom == 0 ) ? NO : YES)
+
+#define AutoSizeScale6 ((SCREEN_WIDTH) / 375.)
+/**
+ 以750的屏幕宽，适配位置
+ */
+#define AutoSize6(size) ( lroundl((size) * AutoSizeScale6 * 10 / 2.0) / 10.0 )

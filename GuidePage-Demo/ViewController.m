@@ -8,8 +8,14 @@
 
 #import "ViewController.h"
 #import "ZLGuidePageView.h"
+#import "ZLSplashAdView.h"
+#import <MSWeakTimer/MSWeakTimer.h>
+#import <ZLNetWork/ZLNetWork.h>
+#import "NSUserDefaults+LaunchGuide.h"
 
-@interface ViewController ()
+@interface ViewController ()<ZLSplashAdViewDelegate>
+
+@property (nonatomic, strong) ZLSplashAdView *splashAdView;
 
 @end
 
@@ -18,7 +24,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the viewO(∩_∩)O.
-    [self setVideoGuidePage];
+    if ([[NSUserDefaults standardUserDefaults] needShowGuide]) {
+        [self setStaticGuidePage];
+        [NSUserDefaults standardUserDefaults].needShowGuide = NO;
+    } else {
+        [self setSplashView];
+    }
+    
 }
 
 #pragma mark - 设置APP静态图片引导页
@@ -70,4 +82,29 @@
     [self.view addSubview:guidePage];
 }
 
+- (void)setSplashView {
+    ZLLaunchConfig *launchConfig = [[ZLLaunchConfig alloc] init];
+    NSString *pic = @"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565594531&di=5c72a92d5f192369c106c772f69dc77d&imgtype=jpg&er=1&src=http%3A%2F%2Fpic51.nipic.com%2Ffile%2F20141025%2F8649940_220505558734_2.jpg";
+    launchConfig.pic = pic;
+    launchConfig.delayTime = 5;
+    launchConfig.logoImage = @"timg";
+    launchConfig.links = @"http://www.baidu.com";
+    
+    ZLSplashAdView *splashAdView = [[ZLSplashAdView alloc] initWithFrame:self.view.frame launchConfig:launchConfig];
+    splashAdView.delegate = self;
+    splashAdView.finishedBlock = ^ {
+        NSLog(@"结束了");
+        if (self.callBack) {
+            self.callBack();
+        }
+    };
+    [self.view addSubview:splashAdView];
+    
+}
+
+#pragma mark ZLSplashAdViewDelegate
+- (void)didClickAdImageVieWithSplash:(ZLLaunchConfig *)launchConfig {
+    // 点击闪屏图跳转
+    NSLog(@"------------------%@", launchConfig.links);
+}
 @end

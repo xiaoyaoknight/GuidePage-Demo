@@ -1,0 +1,6 @@
+framework module JSONKit_Framework {
+  umbrella header "JSONKit_Framework-umbrella.h"
+
+  export *
+  module * { export * }
+}
